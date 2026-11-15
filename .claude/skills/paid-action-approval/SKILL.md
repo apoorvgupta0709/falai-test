@@ -31,7 +31,7 @@ Present, then wait for an explicit "yes" before spending:
 - The exact settings that affect cost.
 - **Verified total cost** for those settings, with the source (e.g. the model page).
 - At least one cheaper option when there is one (e.g. 720p or 480p, a shorter clip, a cheaper model), with its price.
-- Default to the cheapest setting that fits the stated use (e.g. 720p for social/Reels drafts). Only go higher if the user picks it.
+- Default to the cheapest setting. **Drafts and previews are always 480p** (or the model's lowest tier). Go higher only for an approved final, and only if the user picks it.
 
 An earlier approval covers only that exact job. A new job, a retry, or changed settings needs a new approval.
 

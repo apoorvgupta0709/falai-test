@@ -61,7 +61,7 @@ Wait for approval of the **treatment and the final motion prompt**.
 ## 7. Video generation (fal.ai) → approval → final
 
 - Inputs: the approved key image (start frame, plus an end frame or references if the model supports them), the approved motion prompt, length, and aspect ratio.
-- Model choice: `recommend_model` (`image-to-video` or `reference-to-video`). Turn off the model's own audio when we add the Sarvam voiceover. For 2–3 suitable models, look up **real prices for the exact resolution and duration on each model page**. Present them with a cheaper option (720p is usually right for Reels/Shorts drafts; 1080p only if chosen), and wait for a yes.
+- Model choice: `recommend_model` (`image-to-video` or `reference-to-video`). Turn off the model's own audio when we add the Sarvam voiceover. For 2–3 suitable models, look up **real prices for the exact resolution and duration on each model page**. Present them with a cheaper option, and wait for a yes. **Drafts are always 480p** (the lowest tier: e.g. Wan 3.0 Prime is $0.068/s at 480p vs $0.28/s at 1080p). Go to 720p or 1080p only for the approved final render, and only when the user chooses it.
 - Submit once with a `submission_key`, then `wait_for_jobs`. Never resubmit to check status.
 - Download the result, inspect a frame contact sheet for product fidelity, and show the user.
 - Add the approved voiceover locally with ffmpeg (free):
