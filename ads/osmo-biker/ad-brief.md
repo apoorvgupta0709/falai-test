@@ -9,8 +9,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | 3. Character(s) | ✅ Approved (Seedream previews locked) |
 | 4. Environment | ✅ Approved |
 | 5. Key image | ✅ Approved (v3) |
-| 6. Director's treatment | ⏳ In review |
-| 7. Video | — |
+| 6. Director's treatment | ✅ Approved (Treatment 1) |
+| 7. Video | ⏳ Pricing |
 
 ## Product
 - **Name:** DJI Osmo Mobile 8P (user-supplied name; specs not independently verified)
@@ -69,6 +69,14 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **v3 (Nano Banana 2 Edit fix):** `keyimage/key-v3-nanobanana2-fix.jpg` (768×1376, 1K, 9:16). Refs: v2, product photo.
   - ✅ Gimbal matches Osmo 8P: dark-grey handle with logo, angled arm, silver joint, phone clamp, tracking module under phone. ✅ Pillion has 2 hands. ✅ Rider's face visible. ✅ Scene preserved.
   - ⚠️ Phone screen shows the tennis image from the product photo, not the rider. ⚠️ Lower resolution (768×1376), still above 720p vertical.
+
+## Stage 6: director's treatment (approved): Treatment 1, "Glide Alongside"
+- 0–1.2 s: low tracking shot in front of the bike; she raises the gimbal ("Osmo Eight P!" 0.3–1.1 s)
+- 1.2–2.4 s: front wheel drops into a pothole, dust, riders jolt; gimbal head and phone stay level ("Kahin bhi, kaise bhi…" 1.3–2.3 s)
+- 2.4–3.8 s: slow push-in to the gimbal; phone screen shows a steady shot of the rider ("bilkul stable!" 2.5–3.6 s)
+- 3.8–5 s: product-hero framing, prayer flags, snow peaks ("Link in bio!" 3.8–4.5 s)
+- **Motion prompt:** Smooth low tracking shot moving backward in front of the motorbike as it rides toward camera on a rocky Himalayan gravel road. At about 1 second the front wheel drops into a pothole: dust and gravel kick up, suspension compresses, both riders jolt. The woman's raised arm bounces, but the smartphone gimbal head and phone stay perfectly level and steady, stabilised. The camera then slowly pushes in toward the gimbal; the phone screen shows a steady video of the rider. Prayer flags flutter, she laughs, he smiles. The rider keeps both hands on the handlebars. The gimbal's design, colour and shape stay exactly the same; faces and clothes unchanged; no new logos or text.
+- **Overlays (ffmpeg, free; defaults, user can change):** "#ad" for the whole clip; "Osmo 8P · Link in bio" from 3.8 s.
 
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
