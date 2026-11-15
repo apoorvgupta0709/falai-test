@@ -35,6 +35,17 @@ Present, then wait for an explicit "yes" before spending:
 
 An earlier approval covers only that exact job. A new job, a retry, or changed settings needs a new approval.
 
+## Failures, rejections and retries
+
+- A content-policy rejection or a 4xx error can still be **charged**: fal's Seedance docs say 422 client errors are charged. Report it to the user as "possibly charged", log it, and point them to the dashboard.
+- Never resubmit a rejected input, and never disguise it to get past a filter. Offer different models or inputs, with prices, and wait for a yes.
+- If a fix fails twice on the same model, stop and offer a different model or approach instead of paying for more retries.
+
+## Showing the price
+
+- Mark each price as ✅ confirmed (model page or docs) or ⚠️ estimated, with the source.
+- Write prices as "USD 0.03" in skill files, never a dollar sign followed by a digit: skill arguments replace `$0`, `$1`, ….
+
 ## After spending
 
-Report what actually ran and its cost. If the billed amount differs from the quote, say so and explain why.
+Report what actually ran, its cost and the running total for the project. Log it in the project's spend log (e.g. `ads/<name>/ad-brief.md`). If the billed amount differs from the quote, say so and explain why.
