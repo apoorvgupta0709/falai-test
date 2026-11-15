@@ -6,8 +6,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 |---|---|
 | 1. Brief | ✅ Approved |
 | 2. Voice + script | ✅ Approved |
-| 3. Character(s) | ⏳ In review |
-| 4. Environment | — |
+| 3. Character(s) | ✅ Approved |
+| 4. Environment | ⏳ In review |
 | 5. Key image | — |
 | 6. Director's treatment | — |
 | 7. Video | — |
@@ -35,6 +35,14 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Energetic take (pending approval):** `voice/sunny_hi_reels_energetic_final.wav` (4.43 s): Sunny, line with "!", pace 1.25, pauses tightened to ~0.1 s and sped up 8% with ffmpeg. Raw take: `voice/sunny_hi_reels_energetic.wav` (5.36 s).
 - **Sports candidates (pending):** `voice/ratan_hi_sports_tight.wav` (4.22 s), `voice/ashwin_en_sports_energetic_tight.wav` (4.32 s): same line, pace 1.2, pauses tightened (raw takes alongside).
 - **Earlier candidates (male):** `voice/shubh_enhi_ads.wav` (3.63 s), `voice/sunny_hi_reels.wav` (3.80 s), both bulbul:v4-flash, pace 1.1
+
+## Stage 3: characters (approved): Concept 2, "Road-Trip Couple"
+- **Who:** couple, late 20s, travel creators.
+- **Rider:** male, grey touring jacket, full-face helmet, both hands on the bars, classic cruiser-style motorbike (no real brand logos).
+- **Pillion:** female creator, red riding jacket, open-face helmet with sunglasses, big smile; holds the Osmo 8P out to the side, filming the rider and the view.
+- **Product moment:** close-up of her hand on the gimbal; the remote's screen shows a steady shot.
+- **Previews:** text only, no paid preview images (default).
+- **User note:** must show a bumpy Indian road (taken forward to Stage 4).
 
 ## Compliance notes
 - Safety: the rider rides with both hands and a helmet; only the pillion holds the gimbal.
