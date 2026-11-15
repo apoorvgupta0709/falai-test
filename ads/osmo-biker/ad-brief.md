@@ -10,7 +10,7 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | 4. Environment | ✅ Approved |
 | 5. Key image | ✅ Approved (v3) |
 | 6. Director's treatment | ✅ Approved (Treatment 1) |
-| 7. Video | ⏳ Pricing |
+| 7. Video | ⏳ 480p draft in review |
 
 ## Product
 - **Name:** DJI Osmo Mobile 8P (user-supplied name; specs not independently verified)
@@ -80,6 +80,10 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 
 ## Stage 7: video
 - **Attempt 1:** Seedance 2.5 Flash i2v, 480p, 5 s, audio off, start frame key v3. **Declined by the model's safety system** (content_policy_violation on `image_url`: "may contain likenesses of real people"). No video produced. Request ID 01a1e0ec-420c-7283-a1e1-b1eace298c1e.
+- **Attempt 2 (draft):** Wan 3.0 Prime i2v, 480p (480×854, 30 fps), 5 s, 9:16, audio off, seed 275635521. Raw: `video/raw-wan30prime-480p.mp4`.
+  - ✅ Bike approaches and kicks up dust over the broken road; push-in ends on a product hero shot; gimbal design held (handle, arm, joint, clamp, tracking module); phone screen shows the couple; faces and outfits consistent.
+  - ⚠️ The pothole jolt is mild (more dust than bounce).
+- **Draft cut:** `video/osmo-biker-ad-draft-480p.mp4`: Ratan voiceover from 0.3 s, "#ad" top-left throughout, "Osmo 8P · Link in bio" from 3.8 s (ffmpeg, free).
 
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
@@ -104,3 +108,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Key image v2 (fix) | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9, 2 refs | USD 0.03 | USD 0.03 (per-image rate) |
 | Key image v3 (fix) | fal-ai/nano-banana-2/edit | 1 × 1K, 9:16, 2 refs | USD 0.08 | USD 0.08 (per-image rate; not yet seen on dashboard) |
 | Video attempt 1 (declined) | bytedance/seedance-2.5/flash/image-to-video | 480p, 5 s | ≈ USD 0.68 | No output. Possibly charged: fal's Seedance 1.0 docs say 422 client errors are charged; check dashboard |
+| Video draft (Wan 3.0 Prime) | alibaba/wan-3.0-prime/image-to-video | 480p, 5 s, audio off | USD 0.34 (USD 0.068/s per model page) | USD 0.34 expected; confirm on dashboard |
