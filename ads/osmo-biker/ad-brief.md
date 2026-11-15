@@ -5,7 +5,7 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Stage | Status |
 |---|---|
 | 1. Brief | ✅ Approved |
-| 2. Voice + script | ⏳ In review |
+| 2. Voice + script | ⏳ Samples sent, awaiting pick |
 | 3. Character(s) | — |
 | 4. Environment | — |
 | 5. Key image | — |
@@ -26,7 +26,11 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Mood:** cinematic, golden hour, friendship and road-trip energy.
 - **Call to action:** "Apne riding buddy ko DOP bana do. Link in bio."
 - **Length:** 5 seconds, 9:16.
-- **To confirm:** motorbike (assumed), Hinglish (assumed).
+- **To confirm:** motorbike (assumed). Language: Hinglish (accepted).
+
+## Stage 2: script (approved) and voice (pending)
+- **Script:** "Osmo Eight P. Kahin bhi, kaise bhi... bilkul stable. Link in bio." ("Eight" spelled out so the voice says it correctly)
+- **Voice candidates (male):** `voice/shubh_enhi_ads.wav` (3.63 s), `voice/sunny_hi_reels.wav` (3.80 s), both bulbul:v4-flash, pace 1.1
 
 ## Compliance notes
 - Safety: the rider rides with both hands and a helmet; only the pillion holds the gimbal.
@@ -37,3 +41,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 ## Spend log
 | Step | Model | Settings | Quoted | Actual |
 |---|---|---|---|---|
+| Voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars | ~150 chars approved (rate unconfirmed) | 130 chars |
