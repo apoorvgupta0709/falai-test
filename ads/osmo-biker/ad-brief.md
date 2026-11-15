@@ -66,6 +66,9 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
   - ✅ Rider's visor up, buff down, bearded face visible. ✅ Rest of scene preserved.
   - ⚠️ Gimbal closer (grey handle, folding silver arm, phone clamp, light) but not faithful: thin silver arm, light on top instead of a tracking module under the phone, handle not the thick dark-grey Osmo grip.
   - ❌ Pillion still has 3 hands.
+- **v3 (Nano Banana 2 Edit fix):** `keyimage/key-v3-nanobanana2-fix.jpg` (768×1376, 1K, 9:16). Refs: v2, product photo.
+  - ✅ Gimbal matches Osmo 8P: dark-grey handle with logo, angled arm, silver joint, phone clamp, tracking module under phone. ✅ Pillion has 2 hands. ✅ Rider's face visible. ✅ Scene preserved.
+  - ⚠️ Phone screen shows the tennis image from the product photo, not the rider. ⚠️ Lower resolution (768×1376), still above 720p vertical.
 
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
@@ -88,3 +91,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Character previews (rider + pillion) | fal-ai/bytedance/seedream/v4/text-to-image | 2 × portrait_16_9 (returned 1152×2048) | USD 0.06 | USD 0.06 (per-image rate; not yet seen on dashboard) |
 | Key image v1 | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9 (1152×2048), 3 refs | USD 0.03 | USD 0.03 (per-image rate; not yet seen on dashboard) |
 | Key image v2 (fix) | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9, 2 refs | USD 0.03 | USD 0.03 (per-image rate) |
+| Key image v3 (fix) | fal-ai/nano-banana-2/edit | 1 × 1K, 9:16, 2 refs | USD 0.08 | USD 0.08 (per-image rate; not yet seen on dashboard) |
