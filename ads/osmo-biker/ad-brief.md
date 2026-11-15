@@ -46,6 +46,10 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Revised pillion ("jazzy"):** about 26, glamorous, fitted cropped red leather biker jacket with silver zips open over a black top, black high-waist jeans, glossy red open-face helmet, long wavy hair, oversized mirrored gold sunglasses, red lipstick, gold hoops, playful smile. Preview: `previews/character-lookB-jazzy-schnell.jpg` (seed 1690421495).
 - **User note:** must show a bumpy Indian road (taken forward to Stage 4).
 
+## Model choices (user)
+- **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
+- **Stage 7 video:** Seedance family (exact endpoint + 480p draft price to be confirmed at Stage 7).
+
 ## Compliance notes
 - Safety: the rider rides with both hands and a helmet; only the pillion holds the gimbal.
 - Affiliate disclosure (#ad / affiliate link) goes in the caption, plus an optional on-screen tag.
