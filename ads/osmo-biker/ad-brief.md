@@ -58,6 +58,11 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Palette:** cool blues and browns with bright prayer-flag colours; the red jacket and red helmet pop.
 - **Props:** prayer flags, stone cairns, a BRO-style road sign (no real brand text).
 
+## Stage 5: key image
+- **v1:** `keyimage/key-v1-seedream4edit.jpg` (Seedream 4 Edit, seed 886229388, 1152×2048). Refs: product photo, rider preview, pillion preview.
+  - ✅ Environment, pillion look, red helmet, rider's hands on bars, front wheel over potholes, dust.
+  - ❌ Gimbal is generic (thin black stick); doesn't match Osmo 8P. ❌ Pillion has 3 hands (gimbal hand plus both hands on his shoulders). ❌ Rider's face hidden (goggle visor down, buff over mouth).
+
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
 - **Stage 7 video:** Seedance family (exact endpoint + 480p draft price to be confirmed at Stage 7).
@@ -77,3 +82,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Character preview, Look B | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate; not yet seen on dashboard) |
 | Character preview, Look B jazzy | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate) |
 | Character previews (rider + pillion) | fal-ai/bytedance/seedream/v4/text-to-image | 2 × portrait_16_9 (returned 1152×2048) | USD 0.06 | USD 0.06 (per-image rate; not yet seen on dashboard) |
+| Key image v1 | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9 (1152×2048), 3 refs | USD 0.03 | USD 0.03 (per-image rate; not yet seen on dashboard) |
