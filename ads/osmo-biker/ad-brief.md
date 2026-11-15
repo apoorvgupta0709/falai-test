@@ -5,8 +5,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Stage | Status |
 |---|---|
 | 1. Brief | ✅ Approved |
-| 2. Voice + script | ⏳ Samples sent, awaiting pick |
-| 3. Character(s) | — |
+| 2. Voice + script | ✅ Approved |
+| 3. Character(s) | ⏳ In review |
 | 4. Environment | — |
 | 5. Key image | — |
 | 6. Director's treatment | — |
@@ -28,7 +28,9 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Length:** 5 seconds, 9:16.
 - **To confirm:** motorbike (assumed). Language: Hinglish (accepted).
 
-## Stage 2: script (approved) and voice (pending)
+## Stage 2: script and voice (approved)
+- **✅ Final voice:** `voice/ratan_hi_sports_tight.wav`: Ratan (`ratan_hi_sports`, bulbul:v4-flash), pace 1.2, pauses tightened to ~0.1 s, 4.22 s.
+- **Final line:** "Osmo Eight P! Kahin bhi, kaise bhi... bilkul stable! Link in bio!"
 - **Script:** "Osmo Eight P. Kahin bhi, kaise bhi... bilkul stable. Link in bio." ("Eight" spelled out so the voice says it correctly)
 - **Energetic take (pending approval):** `voice/sunny_hi_reels_energetic_final.wav` (4.43 s): Sunny, line with "!", pace 1.25, pauses tightened to ~0.1 s and sped up 8% with ffmpeg. Raw take: `voice/sunny_hi_reels_energetic.wav` (5.36 s).
 - **Sports candidates (pending):** `voice/ratan_hi_sports_tight.wav` (4.22 s), `voice/ashwin_en_sports_energetic_tight.wav` (4.32 s): same line, pace 1.2, pauses tightened (raw takes alongside).
