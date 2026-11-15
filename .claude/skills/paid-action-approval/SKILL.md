@@ -19,7 +19,7 @@ Free, local work (ffmpeg, file edits, git) needs no approval.
 
 ## Before asking: verify the real price
 
-1. A pricing API's base `unit_price` is **not** a quote. Rates often vary by resolution, duration, audio or quality. (Lesson learned: Wan 3.0 Prime showed "$0.05/second", but 1080p actually bills $0.28/s, so a 5s clip cost **$1.40**, not the $0.25 that was quoted.)
+1. A pricing API's base `unit_price` is **not** a quote. Rates often vary by resolution, duration, audio or quality. (Lesson learned: Wan 3.0 Prime showed "USD 0.05/second", but 1080p actually bills USD 0.28/s, so a 5s clip cost **USD 1.40**, not the USD 0.25 that was quoted.)
 2. Check the model's own pricing page or docs for the **exact settings** you plan to use (resolution, duration, audio, etc.).
 3. If the price for those settings can't be confirmed, say so plainly and give a range or the worst case. Never present an unverified number as the cost.
 

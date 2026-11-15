@@ -7,7 +7,7 @@ description: End-to-end workflow for producing a short product video ad (Instagr
 
 Seven stages, in order. **Each stage ends with explicit human approval.** Never move to the next stage, or spend money, on an assumption. Keep all approved decisions in a running `ad-brief.md` in the project (product, brief, script, voice, character, environment, image, direction, final video) so later stages and later sessions can build on them.
 
-**Money rule:** every paid call (fal.ai image or video, Sarvam TTS, paid scraping, etc.) and every setting that changes the price (model, resolution, duration, audio, number of outputs, retries) follows `.claude/skills/paid-action-approval/SKILL.md`: confirm the real price for the exact settings, offer a cheaper option, and wait for a yes. A pricing API's base `unit_price` is not a quote. Wan 3.0 Prime showed "$0.05/s" but bills $0.28/s at 1080p.
+**Money rule:** every paid call (fal.ai image or video, Sarvam TTS, paid scraping, etc.) and every setting that changes the price (model, resolution, duration, audio, number of outputs, retries) follows `.claude/skills/paid-action-approval/SKILL.md`: confirm the real price for the exact settings, offer a cheaper option, and wait for a yes. A pricing API's base `unit_price` is not a quote. Wan 3.0 Prime showed "USD 0.05/s" but bills USD 0.28/s at 1080p.
 
 ---
 
@@ -61,7 +61,7 @@ Wait for approval of the **treatment and the final motion prompt**.
 ## 7. Video generation (fal.ai) → approval → final
 
 - Inputs: the approved key image (start frame, plus an end frame or references if the model supports them), the approved motion prompt, length, and aspect ratio.
-- Model choice: `recommend_model` (`image-to-video` or `reference-to-video`). Turn off the model's own audio when we add the Sarvam voiceover. For 2–3 suitable models, look up **real prices for the exact resolution and duration on each model page**. Present them with a cheaper option, and wait for a yes. **Drafts are always 480p** (the lowest tier: e.g. Wan 3.0 Prime is $0.068/s at 480p vs $0.28/s at 1080p). Go to 720p or 1080p only for the approved final render, and only when the user chooses it.
+- Model choice: `recommend_model` (`image-to-video` or `reference-to-video`). Turn off the model's own audio when we add the Sarvam voiceover. For 2–3 suitable models, look up **real prices for the exact resolution and duration on each model page**. Present them with a cheaper option, and wait for a yes. **Drafts are always 480p** (the lowest tier: e.g. Wan 3.0 Prime is USD 0.068/s at 480p vs USD 0.28/s at 1080p). Go to 720p or 1080p only for the approved final render, and only when the user chooses it.
 - Submit once with a `submission_key`, then `wait_for_jobs`. Never resubmit to check status.
 - Download the result, inspect a frame contact sheet for product fidelity, and show the user.
 - Add the approved voiceover locally with ffmpeg (free):
