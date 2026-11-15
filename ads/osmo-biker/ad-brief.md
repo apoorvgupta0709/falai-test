@@ -6,9 +6,9 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 |---|---|
 | 1. Brief | ✅ Approved |
 | 2. Voice + script | ✅ Approved |
-| 3. Character(s) | ✅ Approved |
-| 4. Environment | ⏳ In review |
-| 5. Key image | — |
+| 3. Character(s) | ✅ Approved (Seedream previews locked) |
+| 4. Environment | ✅ Approved |
+| 5. Key image | ⏳ In review |
 | 6. Director's treatment | — |
 | 7. Video | — |
 
@@ -51,6 +51,12 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - Pillion: `previews/character-pillion-seedream4.jpg` (seed 1531317186)
 - Side-by-side: `previews/characters-side-by-side.jpg`
 - Output was 1152×2048 even though the `portrait_16_9` preset was requested (billed per image).
+
+## Stage 4: environment (approved): Option 3, "Himalayan Broken Stretch"
+- **Setting:** high mountain gravel road with rocks and washed-out, bumpy broken sections; snow peaks, prayer flags, a small stream crossing.
+- **Light:** late afternoon, crisp sun, deep blue sky.
+- **Palette:** cool blues and browns with bright prayer-flag colours; the red jacket and red helmet pop.
+- **Props:** prayer flags, stone cairns, a BRO-style road sign (no real brand text).
 
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
