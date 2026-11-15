@@ -31,6 +31,7 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 ## Stage 2: script (approved) and voice (pending)
 - **Script:** "Osmo Eight P. Kahin bhi, kaise bhi... bilkul stable. Link in bio." ("Eight" spelled out so the voice says it correctly)
 - **Energetic take (pending approval):** `voice/sunny_hi_reels_energetic_final.wav` (4.43 s): Sunny, line with "!", pace 1.25, pauses tightened to ~0.1 s and sped up 8% with ffmpeg. Raw take: `voice/sunny_hi_reels_energetic.wav` (5.36 s).
+- **Sports candidates (pending):** `voice/ratan_hi_sports_tight.wav` (4.22 s), `voice/ashwin_en_sports_energetic_tight.wav` (4.32 s): same line, pace 1.2, pauses tightened (raw takes alongside).
 - **Earlier candidates (male):** `voice/shubh_enhi_ads.wav` (3.63 s), `voice/sunny_hi_reels.wav` (3.80 s), both bulbul:v4-flash, pace 1.1
 
 ## Compliance notes
@@ -44,3 +45,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 |---|---|---|---|---|
 | Voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars | ~150 chars approved (rate unconfirmed) | 130 chars |
 | Energetic re-take | Sarvam bulbul:v4-flash | 1 × 65 chars, pace 1.25 | ~65 chars quoted | 65 chars |
+| Sports voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars, pace 1.2 | ~130 chars quoted | 130 chars |
