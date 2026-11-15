@@ -46,6 +46,12 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Revised pillion ("jazzy"):** about 26, glamorous, fitted cropped red leather biker jacket with silver zips open over a black top, black high-waist jeans, glossy red open-face helmet, long wavy hair, oversized mirrored gold sunglasses, red lipstick, gold hoops, playful smile. Preview: `previews/character-lookB-jazzy-schnell.jpg` (seed 1690421495).
 - **User note:** must show a bumpy Indian road (taken forward to Stage 4).
 
+## Character previews: Seedream 4 (no props, studio)
+- Rider: `previews/character-rider-seedream4.jpg` (seed 1218036513)
+- Pillion: `previews/character-pillion-seedream4.jpg` (seed 1531317186)
+- Side-by-side: `previews/characters-side-by-side.jpg`
+- Output was 1152×2048 even though the `portrait_16_9` preset was requested (billed per image).
+
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
 - **Stage 7 video:** Seedance family (exact endpoint + 480p draft price to be confirmed at Stage 7).
@@ -64,3 +70,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Sports voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars, pace 1.2 | ~130 chars quoted | 130 chars |
 | Character preview, Look B | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate; not yet seen on dashboard) |
 | Character preview, Look B jazzy | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate) |
+| Character previews (rider + pillion) | fal-ai/bytedance/seedream/v4/text-to-image | 2 × portrait_16_9 (returned 1152×2048) | USD 0.06 | USD 0.06 (per-image rate; not yet seen on dashboard) |
