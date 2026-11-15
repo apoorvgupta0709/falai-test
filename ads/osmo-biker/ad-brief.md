@@ -8,8 +8,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | 2. Voice + script | ✅ Approved |
 | 3. Character(s) | ✅ Approved (Seedream previews locked) |
 | 4. Environment | ✅ Approved |
-| 5. Key image | ⏳ In review |
-| 6. Director's treatment | — |
+| 5. Key image | ✅ Approved (v3) |
+| 6. Director's treatment | ⏳ In review |
 | 7. Video | — |
 
 ## Product
