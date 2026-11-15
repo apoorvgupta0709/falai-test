@@ -41,7 +41,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Rider:** male, grey touring jacket, full-face helmet, both hands on the bars, classic cruiser-style motorbike (no real brand logos).
 - **Pillion:** female creator, red riding jacket, open-face helmet with sunglasses, big smile; holds the Osmo 8P out to the side, filming the rider and the view.
 - **Product moment:** close-up of her hand on the gimbal; the remote's screen shows a steady shot.
-- **Previews:** text only, no paid preview images (default).
+- **Look:** B, "Rugged Tourers" (pending sign-off after preview). Rider: about 30, heavy stubble, charcoal-grey adventure jacket with reflective strips, grey neck buff, scuffed black full-face helmet, visor up. Pillion: about 28, red-and-black textile jacket, black open-face helmet, wraparound sunglasses, curly hair.
+- **Preview:** `previews/character-lookB-schnell.jpg` (Flux Schnell, seed 549141296). Artifacts: the pillion has a third hand, and the gimbal looks like a bare phone.
 - **User note:** must show a bumpy Indian road (taken forward to Stage 4).
 
 ## Compliance notes
@@ -56,3 +57,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars | ~150 chars approved (rate unconfirmed) | 130 chars |
 | Energetic re-take | Sarvam bulbul:v4-flash | 1 × 65 chars, pace 1.25 | ~65 chars quoted | 65 chars |
 | Sports voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars, pace 1.2 | ~130 chars quoted | 130 chars |
+| Character preview, Look B | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate; not yet seen on dashboard) |
