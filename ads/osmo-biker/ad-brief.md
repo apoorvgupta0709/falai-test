@@ -30,7 +30,8 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 
 ## Stage 2: script (approved) and voice (pending)
 - **Script:** "Osmo Eight P. Kahin bhi, kaise bhi... bilkul stable. Link in bio." ("Eight" spelled out so the voice says it correctly)
-- **Voice candidates (male):** `voice/shubh_enhi_ads.wav` (3.63 s), `voice/sunny_hi_reels.wav` (3.80 s), both bulbul:v4-flash, pace 1.1
+- **Energetic take (pending approval):** `voice/sunny_hi_reels_energetic_final.wav` (4.43 s): Sunny, line with "!", pace 1.25, pauses tightened to ~0.1 s and sped up 8% with ffmpeg. Raw take: `voice/sunny_hi_reels_energetic.wav` (5.36 s).
+- **Earlier candidates (male):** `voice/shubh_enhi_ads.wav` (3.63 s), `voice/sunny_hi_reels.wav` (3.80 s), both bulbul:v4-flash, pace 1.1
 
 ## Compliance notes
 - Safety: the rider rides with both hands and a helmet; only the pillion holds the gimbal.
@@ -42,3 +43,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Step | Model | Settings | Quoted | Actual |
 |---|---|---|---|---|
 | Voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars | ~150 chars approved (rate unconfirmed) | 130 chars |
+| Energetic re-take | Sarvam bulbul:v4-flash | 1 × 65 chars, pace 1.25 | ~65 chars quoted | 65 chars |
