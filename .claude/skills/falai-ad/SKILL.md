@@ -9,7 +9,7 @@ Seven stages, in order. **Each stage ends with explicit human approval.** Never 
 
 **Money rule:** every paid call (fal.ai image or video, Sarvam TTS, Firecrawl scrapes, etc.) and every setting that changes the price (model, resolution, duration, audio, number of outputs, retries) follows `.claude/skills/paid-action-approval/SKILL.md`. Confirm the real price for the exact settings, offer a cheaper option, and wait for a yes. A pricing API's base `unit_price` is not a quote. Wan 3.0 Prime showed "USD 0.05/s" but bills USD 0.28/s at 1080p.
 
-**Writing prices in this skill:** write "USD 0.03", never a dollar sign followed by a digit. Skill arguments replace `$0`, `$1`… with the user's input.
+**Writing prices in this skill:** write "USD 0.03", never a dollar sign followed by a digit. Skill arguments replace dollar-number placeholders with the user's input.
 
 ## Project layout and record-keeping
 

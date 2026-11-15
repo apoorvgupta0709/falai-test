@@ -44,7 +44,7 @@ An earlier approval covers only that exact job. A new job, a retry, or changed s
 ## Showing the price
 
 - Mark each price as ✅ confirmed (model page or docs) or ⚠️ estimated, with the source.
-- Write prices as "USD 0.03" in skill files, never a dollar sign followed by a digit: skill arguments replace `$0`, `$1`, ….
+- Write prices as "USD 0.03" in skill files, never a dollar sign followed by a digit: skill arguments replace dollar-number placeholders.
 
 ## After spending
 
