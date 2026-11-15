@@ -78,6 +78,9 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Motion prompt:** Smooth low tracking shot moving backward in front of the motorbike as it rides toward camera on a rocky Himalayan gravel road. At about 1 second the front wheel drops into a pothole: dust and gravel kick up, suspension compresses, both riders jolt. The woman's raised arm bounces, but the smartphone gimbal head and phone stay perfectly level and steady, stabilised. The camera then slowly pushes in toward the gimbal; the phone screen shows a steady video of the rider. Prayer flags flutter, she laughs, he smiles. The rider keeps both hands on the handlebars. The gimbal's design, colour and shape stay exactly the same; faces and clothes unchanged; no new logos or text.
 - **Overlays (ffmpeg, free; defaults, user can change):** "#ad" for the whole clip; "Osmo 8P · Link in bio" from 3.8 s.
 
+## Stage 7: video
+- **Attempt 1:** Seedance 2.5 Flash i2v, 480p, 5 s, audio off, start frame key v3. **Declined by the model's safety system** (content_policy_violation on `image_url`: "may contain likenesses of real people"). No video produced. Request ID 01a1e0ec-420c-7283-a1e1-b1eace298c1e.
+
 ## Model choices (user)
 - **Stage 5 key image:** Seedream 4 Edit (`fal-ai/bytedance/seedream/v4/edit`), USD 0.03/image per fal pricing API (re-verify on model page before generating).
 - **Stage 7 video:** Seedance family (exact endpoint + 480p draft price to be confirmed at Stage 7).
@@ -100,3 +103,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Key image v1 | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9 (1152×2048), 3 refs | USD 0.03 | USD 0.03 (per-image rate; not yet seen on dashboard) |
 | Key image v2 (fix) | fal-ai/bytedance/seedream/v4/edit | 1 × portrait_16_9, 2 refs | USD 0.03 | USD 0.03 (per-image rate) |
 | Key image v3 (fix) | fal-ai/nano-banana-2/edit | 1 × 1K, 9:16, 2 refs | USD 0.08 | USD 0.08 (per-image rate; not yet seen on dashboard) |
+| Video attempt 1 (declined) | bytedance/seedance-2.5/flash/image-to-video | 480p, 5 s | ≈ USD 0.68 | No output. Possibly charged: fal's Seedance 1.0 docs say 422 client errors are charged; check dashboard |
