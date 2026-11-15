@@ -43,6 +43,7 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 - **Product moment:** close-up of her hand on the gimbal; the remote's screen shows a steady shot.
 - **Look:** B, "Rugged Tourers" (pending sign-off after preview). Rider: about 30, heavy stubble, charcoal-grey adventure jacket with reflective strips, grey neck buff, scuffed black full-face helmet, visor up. Pillion: about 28, red-and-black textile jacket, black open-face helmet, wraparound sunglasses, curly hair.
 - **Preview:** `previews/character-lookB-schnell.jpg` (Flux Schnell, seed 549141296). Artifacts: the pillion has a third hand, and the gimbal looks like a bare phone.
+- **Revised pillion ("jazzy"):** about 26, glamorous, fitted cropped red leather biker jacket with silver zips open over a black top, black high-waist jeans, glossy red open-face helmet, long wavy hair, oversized mirrored gold sunglasses, red lipstick, gold hoops, playful smile. Preview: `previews/character-lookB-jazzy-schnell.jpg` (seed 1690421495).
 - **User note:** must show a bumpy Indian road (taken forward to Stage 4).
 
 ## Compliance notes
@@ -58,3 +59,4 @@ Workflow: `.claude/skills/falai-ad/SKILL.md`
 | Energetic re-take | Sarvam bulbul:v4-flash | 1 × 65 chars, pace 1.25 | ~65 chars quoted | 65 chars |
 | Sports voice samples | Sarvam bulbul:v4-flash | 2 × 65 chars, pace 1.2 | ~130 chars quoted | 130 chars |
 | Character preview, Look B | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate; not yet seen on dashboard) |
+| Character preview, Look B jazzy | fal-ai/flux/schnell | 1 × 576×1024 (rounds up to 1 MP) | USD 0.003 | USD 0.003 (per docs rate) |
