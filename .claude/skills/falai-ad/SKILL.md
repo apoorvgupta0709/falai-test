@@ -1,6 +1,6 @@
 ---
 name: falai-ad
-description: End-to-end workflow for producing a short product video ad (Instagram Reels / YouTube Shorts) with fal.ai for images and video and Sarvam for voiceover. Use when the user wants a product ad, reel, short, promo video, or any stage of one (brief, script, voice, character, environment, key image, direction, final video). Every stage ends with a human approval gate.
+description: End-to-end workflow for producing a short product video ad (Instagram Reels / YouTube Shorts) with fal.ai for image and video generation, Scenario for 3D assets, drawings and text assets, and Sarvam for voiceover. Use when the user wants a product ad, reel, short, promo video, or any stage of one (brief, script, voice, character, environment, key image, direction, final video). Every stage ends with a human approval gate.
 ---
 
 # falai-ad: product video ad workflow
@@ -8,6 +8,10 @@ description: End-to-end workflow for producing a short product video ad (Instagr
 Seven stages, in order. **Each stage ends with explicit human approval.** Never move to the next stage, or spend money, on an assumption. Keep all approved decisions in a running `ad-brief.md` in the project (product, brief, script, voice, character, environment, image, direction, final video) so later stages and later sessions can build on them.
 
 **Money rule:** every paid call (fal.ai image or video, Sarvam TTS, paid scraping, etc.) and every setting that changes the price (model, resolution, duration, audio, number of outputs, retries) follows `.claude/skills/paid-action-approval/SKILL.md`: confirm the real price for the exact settings, offer a cheaper option, and wait for a yes. A pricing API's base `unit_price` is not a quote. Wan 3.0 Prime showed "USD 0.05/s" but bills USD 0.28/s at 1080p.
+
+**Which service to use:**
+- **fal.ai only** for image generation (character and environment previews, key images, image edits) and for all video generation. Never use Scenario for these.
+- **Scenario** (scenario.com, via its MCP server and the `scenario` skill) for 3D assets, drawings and illustrations, and text assets (e.g. logos, typography, title cards).
 
 ---
 
