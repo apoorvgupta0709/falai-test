@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "scenario": {
+      "source": "scenario-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/scenario/SKILL.md",
+      "computedHash": "6fe164042f60328829a5f3a5cf25bf857819d2b7d071b8624847377801e04a64"
+    }
+  }
+}
